@@ -9,6 +9,7 @@ const app = express();
 
 // parse incoming requests
 app.use(express.json());
+
 const dbUrl = 'postgres://webadmin:NBSdnh21817@node57067-parinthonr-noderest.proen.app.ruk-com.cloud/Books';
 
 // create a connection to the database
